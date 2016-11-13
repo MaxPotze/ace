@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*  GRID OF TWO   ============================================================================= */
+
+.row-image {
+    width: 50%;
+    background-color: red;
+}
+
+.row-text {
+    width: 50%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 800px) {
+    .row-image {
+        width: 100%
+    }
+    .row-text {
+        width: 100%;
+    }
+}
